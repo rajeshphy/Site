@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f2f2f2;
+  font-family: sans-serif;
+}
+
+.wrap {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.quart {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: white;
+  border: 0.5px solid white;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background 0.3s ease;
+  font-weight: 600; /* ✅ Semi-bold */
+}
+
+.quart:first-child { top: 0; left: 0; }
+.quart:nth-child(2) { top: 0; left: 50%; }
+.quart:nth-child(3) { top: 50%; left: 0; }
+.quart:nth-child(4) { top: 50%; left: 50%; }
+
+.center {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  background: gray;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+  font-weight: 600; /* ✅ Semi-bold */
+}
+
+.modern-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 3rem auto;
+  max-width: 500px;
+  padding: 0 1rem;
+}
+
+.modern-buttons button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  border: none;
+  border-radius: 50px;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.modern-buttons button:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.center:hover, .quart:hover {
+  background: dimgray;
+}
+
+@media (max-width: 480px) {
+  .wrap {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .center, .quart {
+    font-size: 0.9rem;
+    font-weight: 600; /* ✅ Semi-bold */
+  }
+}
