@@ -6,10 +6,10 @@ permalink: /memories/
 
 <div class="modern-buttons">
   <button onclick="openInNewTab('https://rajeshphy.github.io/shaadi')">
-    💑 <strong>Wedding Moments</strong>
+    💑 <strong>Selected Wedding Album</strong>
   </button>
   <button onclick="openInNewTab('https://rajeshphy.github.io/w')">
-    📷 <strong>Full Wedding Album</strong>
+    📷 <strong>All-Wedding-Album</strong>
   </button>
   <button onclick="openInNewTab('https://rajeshphy.github.io/Mobile')">
     📱 <strong>Mobile Photos (2021–)</strong>
