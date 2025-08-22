@@ -6,7 +6,7 @@ permalink: /memories/
 
 <div class="modern-buttons">
   <button onclick="openInNewTab('https://rajeshphy.github.io/shaadi')">
-    📷 <strong>Selected Wedding Album</strong>
+    <strong>♥️Selected Wedding Album♥️</strong>
   </button>
   <button onclick="openInNewTab('https://www.youtube.com/watch?v=4ChzuveLQCI')">
     🎥 <strong>Video-Muri(3hr 45Min)</strong>
