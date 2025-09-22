@@ -24,7 +24,7 @@ permalink: /memories/
     📑 <strong>Academics</strong>
   </button>
   <button onclick="openInNewTab('https://rajeshphy.github.io/Learnings')">
-    📑 <strong>Learnings</strong>
+    <strong>💡📚 Learnings</strong>
   </button>
 
 </div>
